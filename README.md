@@ -40,16 +40,16 @@ You can generate an app-specific password from your Gmail account settings under
 
 4. **Start the server**:
    Run the server with:
-```bash
-node server.js
-```
+   ```bash
+    node server.js
+   ```
 5. The server will automatically send an email to the specified recipient when it starts. You can check the console for the message ID of the sent email.
 
    **Example Output** : When the server starts, you should see output like:
-```bash
-Server is running on http://localhost:3000
-Email sent successfully! Message ID: <unique-message-id>
-```
+    ```bash
+    Server is running on http://localhost:3000
+    Email sent successfully! Message ID: <unique-message-id>
+   ```
 ## Troubleshooting
 If you're facing issues sending the email, ensure that you have generated an app-specific password from your Gmail account settings.
 Make sure to double-check your .env file for correct credentials.
